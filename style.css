@@ -1,0 +1,281 @@
+
+
+/* Header */
+header
+{
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.logo
+{
+	padding-left: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+.logo h1
+{
+	padding-left: 100px;
+	color: white;
+}
+.logo img
+{
+	margin-top: 0px;
+	width: 85px;
+	height: 85px;
+	border-radius: 50px;
+	overflow: hidden;
+	
+}
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+}
+nav li
+{
+	margin-right: 50px;
+	margin-bottom: 15px;
+}
+nav a
+{
+	color: white;
+	font-size: 1.3em;
+	text-decoration: none;
+}
+nav a:hover
+{
+    color: #F0D330;
+    border-bottom: 3px solid #760001;
+}
+/* Section, mise en page générale*/
+body
+{
+	background-color: #2c3e50;
+}
+article
+{
+	padding-top: 25px;
+	padding-left: 15px;
+}
+section h1
+{
+	color: #F0D330;
+	border-bottom: 3px solid #760001;
+	display: inline;
+	font-family: "Trebuchet MS";
+	font-size: 2em;
+	
+}
+
+section p
+{
+	font-family: "Trebuchet MS";
+	font-size: 1.1em;
+	color: white;
+}
+
+
+/* Qui suis-je? */
+#qui
+{
+	background-color: #2c3e50;
+	background: url("cover.jpg") center center no-repeat scroll; 
+	background-size: 100% 800px;
+}
+#qui p
+{
+	text-align: center;
+	padding: 250px;
+	font-weight: bold;
+	font-size: 1.2em;
+
+}
+
+/* Mes Forces */
+
+#forces
+{
+	background-color: #fff;
+}
+
+#forces .row
+{
+	display: flex;
+}
+.col
+{
+	text-align: center;
+	justify-content: space-between;
+	padding: 75px;
+}
+.col img
+{
+	width: 250px;
+	height: 250px;
+	border-radius: 50px;
+	overflow: hidden;
+}
+.col h2
+{
+	color: #34495e;
+	font-style: bold;
+	font-size: 2em;
+	font-family: "Trebuchet MS"
+}
+.col p
+{
+	font-family: "Trebuchet MS";
+	font-size: 1.1em;
+	color: #93909E;	
+}
+
+
+/* Mes Voyages! */
+
+#voyages
+{
+	background: url("voyage.jpg") center center no-repeat fixed; 
+	background-size: 100% 1500px;
+
+
+}
+
+#voyages .row2 .li1
+{
+	display: flex;
+
+}
+#voyages .row2 .li2
+{
+	display: flex;
+}
+
+.row2 img
+{
+	width: 150px;
+	height: 100px;
+	padding: 50px;
+}
+
+/* Ce qu'on dit de moi */
+
+#about
+{
+	background-color: #2c3e50;
+}
+
+.avis
+{
+	display: flex;
+	padding: 25px;
+	justify-content: center;
+}
+#about img
+{
+	width: 75px;
+	height: 75px;
+	border-radius: 50px;
+
+}
+.avis p
+{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+/* Footer */
+footer
+{
+	background-color: #2c3e50;	
+}
+.contactetsocial
+{
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.contactinfo h2
+{
+	color: white;
+	padding-left: 35px;
+}
+.contactinfo p
+{
+	color: white;
+	padding-left: 15px;
+}
+.contactinfo a
+{
+	color: white;
+	text-decoration: none;
+}
+.social-nav
+{
+	color: white;
+	display: flex;
+	justify-content: center;
+
+
+}
+.social-nav ul
+{
+	list-style-type: none;
+	display: flex;
+	color: white;
+	text-decoration: none;
+	justify-content: space-between;
+
+}
+.social-nav li
+{
+	padding: 0px 10px 0px 10px;
+}
+.social-nav a
+{
+	color: white;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border: 2px #095E7A solid;
+	border-radius: 50%;
+}
+.social-nav .bg-facebook-color:hover
+{
+	background-color: #3b5998;
+	border: 3px #3b5998 solid;
+}
+.social-nav .bg-linkedin-color:hover
+{
+	background-color: #007bb6;
+	border: 3px #007bb6 solid;
+}.social-nav .bg-google-plus-color:hover
+{
+	background-color: #C63D2D;
+	border: 3px #C63D2D solid;
+}
+.adress
+{
+	display: flex;
+}
+.tel
+{
+	display: flex;
+}
+.mail
+{
+	display: flex;
+}
+.copyright p
+{
+	/*display: none;*/
+	text-align: center;
+	font-size: 0.7em;
+	padding-bottom: 15px;
+	color: white;
+	padding-top: 15px;
+}
